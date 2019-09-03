@@ -1,11 +1,10 @@
 ---
-title: "The Great Gatsby Bootcamp"
-date: "2019-08-26"
+title: The Great Gatsby Bootcamp
+date: '2019-08-26'
 ---
-
 I Just launched a new bootcamp
 
-![Laptop](./laptop.jpg)
+![](/static/img/pretty.jpg)
 
 ## Topics Covered
 
