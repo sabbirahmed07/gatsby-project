@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: sabbirahmed07/gat_net
+
+media_folder: static/img
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "src/cms/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      # - {
+      #     label: "Template Key",
+      #     name: "templateKey",
+      #     widget: "hidden",
+      #     default: "blog-post",
+      #   }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
